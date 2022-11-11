@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Papper, Scissor, Lizard, Spock</title>
+
+    <link rel="stylesheet" href="css/pagestyle.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <div class="container options">
+        <h1 style="color: red;" >ROCK, PAPER, SCISSOR, LIZARD, SPOCK</h1>
+        <div class="row">
+            <audio src="sound/howtoplay.mp3" id="howtoplay"></audio>
+            <div class="col">
+                <img id="rock" onclick="result('Rock')" src="img/rock.png" alt="" >
+            </div>
+            <div class="col">
+                <img id="paper" onclick="result('Paper')" src="img/paper.png" alt="">
+            </div>
+            <div class="col">
+                <img id="scissor" onclick="result('Scissor')" src="img/scissors.png" alt="">
+            </div>
+            <div class="col">
+                <img id="lizard" onclick="result('Lizard')" src="img/lizard.png" alt="">
+            </div>
+            <div class="col">
+                <img id="spock" onclick="result('Spock')" src="img/spock.png" alt="">
+            </div>
+            <div id="matchOutcome">
+    
+            </div>
+        </div>
+    </div>
+    <script src="scripts/gamelogic.js"></script>
+</body>
+</html>

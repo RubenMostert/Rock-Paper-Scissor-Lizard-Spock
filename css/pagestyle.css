@@ -1,0 +1,25 @@
+@font-face {
+    font-family: globalFont;
+    src: url(../fonts/Muroslant.otf);
+ }
+
+ * {
+    font-family: globalFont;
+    font-size: 60px;
+ }
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/bg.jpg');
+}
+
+.options img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1rem !important;
+    text-align: center !important;
+    margin-top: 20% !important;
+}
